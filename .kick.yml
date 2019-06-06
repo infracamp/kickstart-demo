@@ -2,6 +2,7 @@
 # Run ./kickstart.sh to start a development-container for this project
 version: 1
 from: "infracamp/kickstart-flavor-gaia"
+http_port: 4300
 
 command:
   build:
